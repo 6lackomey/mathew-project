@@ -1,45 +1,8 @@
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url(images/Oval\ shaped\ drop\ wooden\ earring.jpeg);
-    h
-  }
-  
-  .topnav {
-    overflow: hidden;
-    background-color: #333;
-    height: 100px;
-  }
-  
-  .topnav a {
-      margin-left: 200px;
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
-
-  #portflio{
-      text-decoration: wavy;
-      text-shadow: #04AA6D;
-      text-align: justify;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-
-  }
-  h1{
-      text-align: justify;
-      text-decoration: #333;
-      
-  }
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(images/Oval\ shaped\ drop\ wooden\ earring.jpeg);
+  background-position: center;
+  background-size: cover;
+  font-family: sans-serif;
+}
