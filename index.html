@@ -18,44 +18,26 @@
       
       
     <div class="main">
-      <form>
-        <div id="name">
-          <h2 class="name">Name</h2>
-          <input type="text" name="firstname" class="firstname"><br>
-          <label class="firstlabel">firstname</label>
-          <input type="text" name="lastname" class="lastname">
-          <label class="lastlabel">lastname</label>
-
-          <h2 class="name">institution</h2>
-          <input type="text" name="institution" class="institution">
-
-          <h2 class="name">email</h2>
-          <input type="text" name="email" class="email">
-
-          <h2 class="name">phone</h2>
-          <input type="text" name="areacode" class="code">
-          <label class="areacode">Area Code</label>
-          <input type="text" name="phone" class="number">
-          <label class="phonenumber">Phone</label>
+      <form>   
+       <h2 class="name">BIRTHDATE</h2>
+          <input type="date" class="email" name="email">
 
           <h2 class="name">Gender</h2>
-          <select class="option" name="gender">
-          <option disabled="disabled" selected="selected">--choose option</option>
-          <option>male</option>
-          <option>female</option>
+          <input type="radio" class="option" name="gender" value="male">
+  <label for="male" class="gname">Male</label><br>
+  <input type="radio" class="option" name="gender" value="female">
+  <label for="female" class="gname">Female</label><br>
           </select>
 
           <h2 id="student">first time using the calculator?</h2>
-
-          <label class="radio">
-            <input class="radio-one" type="radio" checked="checked" name="">
-            <span class="checkmark"></span>
-            yes
-          </label>
-          <label class="radio">
-            <input class="radio-two" type="radio" checked="checked" name="">
-            <span class="checkmark"></span>
-            No
+          <select name="option" class="option">
+            <option value="option">--choose option</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+          </select>
+          
+      
+                    
           </label>
 
           <button type="submit">show akan name</button>

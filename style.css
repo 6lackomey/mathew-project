@@ -124,18 +124,18 @@ body{
 
   .areacode{
     position: relative;
-    left: -100;
+    left: -100px;
     top: 3px;
     line-height: 40px;
     border-radius: 6px;
     padding: 0 22px;
     font-size: 16px;
     color: white;
-
+    text-transform: capitalize;
   }
   .phonenumber{
     position: relative;
-    left: -250px;
+    left: -300px;
     top: 3px;
     line-height: 40px;
     border-radius: 6px;
@@ -144,6 +144,72 @@ body{
     color:white;
 
   }
+  .option{
+    position: relative;
+    left: 3px;
+    line-height: 40px;
+    width: 532px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    overflow: hidden;
+    outline: honeydew;
+    font-size: 16px;
+    color: #555;
+  }
+  #student{
+    margin-left: 25px;
+    color: #E5E5E5;
+    font-size: 18px;
+
+  }
+.radio{
+  display: inline-block;
+  padding-right: 70px;
+  font-size: 25px;
+  margin-left: 25px;
+  margin-top: 15px;
+  color: #E5E5E5;
+}
+.radioinput{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  border-radius: 50%;
+  outline: none;
+}
+button{
+  background-color: #3BAF9F;
+  display: block;
+  margin: 20px,0px,0px,20px;
+  text-align: center;
+  border-radius: 12px;
+  border: 2px solid #366473;
+  padding: 14px 110px;
+  cursor: pointer;
+  outline: none;
+  color: #E5E5E5;
+  transition: 0.25px;
+  
+}
+button:hover{
+  background-color: #5390F5;
+
+}
+
+.gname{
+  position: relative;
+    left: -530px;
+    top: -15px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: white;
+    text-transform: capitalize;
+
+}
+
 
 
 
