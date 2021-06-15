@@ -5,4 +5,176 @@ body{
   background-position: center;
   background-size: cover;
   font-family: sans-serif;
+  margin-top: 40px;
 }
+
+.regform{
+  width: 800px;
+  background-color: rgb(0,0,0,0.6);
+  margin:auto;
+  color: #FFFFFF;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  border-radius: 15px 15px 0px 0px;
+
+}
+ .main{
+   background-color: rgb(0,0,0,0.5);
+   width: 800px;
+   margin: auto;
+    
+ }
+ form{
+   padding: 10px;
+ }
+
+ #name{
+   width: 100%;
+ }
+.name{
+  margin-left: 25px;
+  margin-top: 30px;
+  width: 125px;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.firstname{
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+}
+
+.lastname{
+  position: relative;
+  left: 417px;
+  top: -80px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+}
+.firstlabel{
+  position: relative;
+  color: #E5E5E5;
+  text-transform: capitalize;
+  font-size: 14px;
+  left: 203px;
+  top: -45px;
+}
+.lastlabel{
+  position: relative;
+  color: #E5E5E5;
+  text-transform: capitalize;
+  font-size: 14px;
+  left: 175px;
+  top: -47px;
+}
+.institution{
+  position: relative;
+  left: 20px;
+  line-height: 40px;
+  width: 532px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+}
+
+.email{
+  position: relative;
+  left: 20px;
+  top: 20px;
+  line-height: 40px;
+  width: 532px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+  }
+  .code{
+    position: relative;
+  left: 100px;
+  top: 3px;
+  line-height: 40px;
+  width: 95px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+  }
+
+  .number{
+    position: relative;
+    left: 80px;
+    top: 3px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    width: ;
+  }
+
+  .areacode{
+    position: relative;
+    left: -100px;
+    top: 3px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: white;
+
+  }
+  .phonenumber{
+    position: relative;
+    left: -250px;
+    top: 3px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color:white;
+
+  }
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
