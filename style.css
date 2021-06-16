@@ -209,7 +209,10 @@ button:hover{
     text-transform: capitalize;
 
 }
-
+.w{
+  padding: 10px;
+  width: 50%;
+}
 
 
 

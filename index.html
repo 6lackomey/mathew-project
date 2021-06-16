@@ -12,71 +12,53 @@
     <title>date calculator</title>
     </head>
     <body>
-      <div class="regform">
-        <h1>REGISTRATION FORM</h1>
-      </div>
-      
-      
-    <div class="main">
-      <form>   
-       <h2 class="name">BIRTHDATE</h2>
-          <input type="date" class="email" name="email">
 
-          <h2 class="name">Gender</h2>
-          <input type="radio" class="option" name="gender" value="male">
-  <label for="male" class="gname">Male</label><br>
-  <input type="radio" class="option" name="gender" value="female">
-  <label for="female" class="gname">Female</label><br>
-          </select>
-
-          <h2 id="student">first time using the calculator?</h2>
-          <select name="option" class="option">
-            <option value="option">--choose option</option>
-            <option value="Yes">Yes</option>
-            <option value="No">No</option>
-          </select>
-          
-      
-                    
-          </label>
-
+              <!-- <div class="main">
+      <form>    
+        <label for="name">BIRTHDATE</label>
+          <input type="date" class="email" name="email" style="margin-bottom: 50px;">
+          <label for="name">gender</label>
+        
           <button type="submit">show akan name</button>
-
-
-
-
-
-
-
-        
-        
-        
-
         </div>
-      </form>
+      </form> -->
+
       
-    
+    </div> 
+    <div class="container">
+          <form action="#" class="form-group">
+          
+            <div class="col-form-label">
+              <label class="form-label" for="NAME">NAME</label>
+              <input type="text" class="input-group w">
+            </div>
 
-    
+            <div class="col-form-label">
+              <label class="form-label" for="BIRTHDATE">BIRTHDATE</label>
+              <input type="date" class="input-group w">
+            </div>  
+           
+            <div class="form-s">
+              <label class="form-label" for="gender">GENDER</label>
+              <select name="gender" class="form-select w">
+                <option value="choice">--choose option</option>
+                <option value="male">MALE</option>
+                <option value="female">FEMALE</option>
 
+              </select>
+              
+             
+              
+              
+            </div>
+            
+            
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
-       
-      
-
-      
-
-  
-
-
-
-    
-      
-
-      
-      
-
-      
-
-        
+    <script src="bootstrap/js/bootstrap.js"></script> 
+    <script src="main.js"></script>  
 </body>
 </html>
