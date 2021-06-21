@@ -28,14 +28,20 @@
     <div class="container card ">
           <form  onsubmit="return getAkaName()" class="form-group">
           
-            <div class="col-form-label">
-              <label class="form-label" for="NAME">NAME</label>
-              <input type="text"  class="input-group w" id="name">
-            </div>
+           
 
             <div class="col-form-label">
-              <label class="form-label" for="BIRTHDATE">BIRTHDATE</label>
-              <input type="date" class="input-group w" id="name">
+              <label class="form-label" for="NAME">year</label>
+              <input type="number"  class="input-group w" id="year-input">
+              </div>
+
+              <div class="col-form-label">
+                <label class="form-label" for="NAME">month</label>
+                <input type="number"  class="input-group w" id="month-input">
+
+            <div class="col-form-label">
+              <label class="form-label" for="BIRTHDATE">day</label>
+              <input type="number" class="input-group w" id="day-input">
             </div>  
            
             <div class="form-label w">
@@ -46,7 +52,7 @@
                 <option value="female" id="name">FEMALE</option>
 
               </select>
-              <button class="button" onclick="getAkanName () ">show akan name</button>
+              <button class="button" onclick="getAkanName() ">show akan name</button>
               
              
               
