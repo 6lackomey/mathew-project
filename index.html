@@ -14,52 +14,55 @@
     </head>
     <body>
       <Marquee><h1 class="k">WELCOME TO AKAN NAME CALCULATOR</h1></Marquee>
-      <P class="para">Akan names come from a traditional naming system for people from countries such as Togo, Ivory Coast and Ghana. ... For example, the day of their birth or the manner in which they were born may determine which name they get irrespective of their gender. These Akan names signify the day one is born</P>
-      <p class="para">For male names this include Sunday:kwasi  Monday:kwado  Tuesday:kwabena  Wednesday:kwaku  Thursday:yaw  Friday:kofi  Saturday:kwame</p><br>
-      <p class="para">For female names this include Sunday:akosua  Monday:adwoa  Tuesday:abenaa  Wednesday:akua  Thursday:yaa  Friday:afua  Saturday:ama</p>
-      <p class="para f">!Use form below to view akan names!</p>
+        <P class="para">Akan names come from a traditional naming system for people from countries such as Togo, Ivory Coast and Ghana. ... For example, the day of their birth or the manner in which they were born may determine which name they get irrespective of their gender. These Akan names signify the day one is born</P>
+        <p class="para">For male names this include Sunday:kwasi  Monday:kwado  Tuesday:kwabena  Wednesday:kwaku  Thursday:yaw  Friday:kofi  Saturday:kwame</p><br>
+        <p class="para">For female names this include Sunday:akosua  Monday:adwoa  Tuesday:abenaa  Wednesday:akua  Thursday:yaa  Friday:afua  Saturday:ama</p>
+        <p class="para f">!Use form below to view akan names!</p>
 
 
        
 
       
     </div> 
-    <section class="a">
-    <div class="container card ">
-      <form class="myform" onsubmit="return getAkanName()">
-        <div class="input-container">
-          <label for="year-of-birth">
-            Year:
-            <input id="year-input" type="number" name="year-of-birth" placeholder="YYYY" value="" required>
-          </label>
-          <label for="month-of-birth">
-        </div>
+      <section class="a">
+        <div class="container card ">
+          <form class="myform" onsubmit="return getAkanName()">
+       
+            <div class="input-container">
+              <label for="year-of-birth">
+               Year:
+                <input id="year-input" type="number" name="year-of-birth" placeholder="YYYY" value="" required>
+              </label>
+              <label for="month-of-birth">
+
+     </div>
+
         <div class="input-container">
             Month:
-            <input id="month-input" type="number" name="month-of-birth" placeholder="MM" value="" required >
-          </label>
-          <label for="day-of-birth">
-              </div>
+              <input id="month-input" type="number" name="month-of-birth" placeholder="MM" value="" required >
+            </label>
+            <label for="day-of-birth">
+        </div>
             Day:
-            <input id="day-input" type="number" name="day-of-birth" placeholder="DD" value="" required >
+              <input id="day-input" type="number" name="day-of-birth" placeholder="DD" value="" required >
           </label>
           <br>
           <label for="gender">
             <p>Select your gender: </p>
             Male
-            <input id="male-input" type="radio" name="gender" value="male" required>
+              <input id="male-input" type="radio" name="gender" value="male" required>
             Female
-            <input id="female-input" type="radio" name="gender" value="female" required >
+              <input id="female-input" type="radio" name="gender" value="female" required >
           </label>
           <br><br>
-          <input id="get-name" type="submit" name="" value="Generate name">
+              <input id="get-name" type="submit" name="" value="Generate name">
           <br><br>
         </form>
         <form onsubmit="return clearInput()">
-          <input class="clear" type="submit" value="Clear input">
+              <input class="clear" type="submit" value="Clear input">
         </form>
-        <h4 id = display-name><strong>Your Akan name will be displayed below:</strong></h4>
-        <p id="result"></p>
+          <h4 id = display-name><strong>Your Akan name will be displayed below:</strong></h4>
+          <p id="result"></p>
       </div>
     </div>
     <script src="script/script.js" ></script>
